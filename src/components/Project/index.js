@@ -5,14 +5,15 @@ import Resume from '../Resume';
 import Contact from '../Contact';
 // import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Project()
+function Project(props)
 {   
+    const {navSelected } = props;
     return (
         <div>
-            <AboutMe />
-            <Portfolio />
-            <Resume />
-            <Contact />
+            {navSelected === "About me" && <AboutMe />}
+            {navSelected === "Portfolio" && <Portfolio />}
+            {navSelected === "Resume" && <Resume />}
+            {navSelected === "Contact" && <Contact />}
         </div>
     );
 };
