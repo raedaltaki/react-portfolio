@@ -4,13 +4,16 @@ import Navigation from '../Navigation';
 
 function Header(props)
 {
-    const {setNavSelected} = props;
+    const {navSelected , setNavSelected} = props;
     return (
-        <header className="flex-row px-1">
-            <h2>
-                <a data-testid="link" href="/">  Raed Altaki </a>
-            </h2>
-            <Navigation setNavSelected = {setNavSelected} />
+        <header>
+            <nav className="navbar navbar-expand-lg navbar-light">
+                <a className= "navbar-brand" data-testid="link" href="#">  Raed Altaki </a>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <Navigation navSelected = {navSelected} setNavSelected = {setNavSelected} />
+            </nav>
         </header>
     );
 };

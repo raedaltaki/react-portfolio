@@ -4,24 +4,22 @@ import React, { useEffect } from 'react';
 function Footer()
 {   
     return (
-        <footer>
-            <ul className="flex-row">
-                <li className="mx-2">
-                    <a href="">
-                        <span> Github </span>
-                    </a>
-                </li>
-                <li className="mx-2">
-                    <a href="">
-                        <span> LinkedIn </span>
-                    </a>
-                </li>
-                <li className='mx-2'>
-                    <a href="">
-                        <span >StackOverFlow</span>
-                    </a>
-                </li>
-            </ul>
+        <footer className=" text-center text-dark">
+            <div className="container p-4">
+            <section className="mb-4">
+                <a className="btn btn-outline-dark btn-lg btn-floating m-1" href="https://github.com/raedaltaki" target="_blank" role="button">
+                    <i className="fab fa-github" ></i>
+                </a>
+
+                <a className="btn btn-outline-dark btn-lg btn-floating m-1" href="https://www.linkedin.com/in/raed-altaki/" target="_blank" role="button">
+                    <i className="fab fa-linkedin-in"></i>
+                </a>
+
+                <a className=" btn btn-outline-dark btn-lg btn-floating m-1" href="https://stackexchange.com/users/19916887/raedaltaki" target="_blank" role="button">
+                    <i className="fab fa-stack-overflow"></i>
+                </a>
+            </section>
+            </div>
         </footer>
     );
 };

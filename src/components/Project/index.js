@@ -9,11 +9,11 @@ function Project(props)
 {   
     const {navSelected } = props;
     return (
-        <div>
+        <div className="m-5">
             {navSelected === "About me" && <AboutMe />}
             {navSelected === "Portfolio" && <Portfolio />}
             {navSelected === "Resume" && <Resume />}
-            {navSelected === "Contact" && <Contact />}
+            {navSelected === "Contact me" && <Contact />}
         </div>
     );
 };

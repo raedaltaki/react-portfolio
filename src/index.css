@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +10,34 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn {
+  border-color: white;
+}
+
+.avatar {
+  /* vertical-align: middle; */
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+}
+
+i {
+  font-size: 50px;
+}
+
+.navbar-brand {
+  font-size: 30px ;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 20px ;
+}
+
+form {
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
 }

@@ -3,24 +3,24 @@ import React, { useEffect } from 'react';
 
 function Navigation(props)
 {   
-    const {setNavSelected} = props;
+    const {navSelected , setNavSelected} = props;
     return (
-        <nav>
-            <ul className="flex-row">
-                <li className="mx-2">
-                    <span onClick={()=>setNavSelected("About me")}>About me</span>
+        <div className= "collapse navbar-collapse"  id="navbarNav">
+            <ul className="navbar-nav">
+                <li className={`nav-item btn ${navSelected === "About me" && "active"}`}>
+                    <span className="nav-link" onClick={()=>setNavSelected("About me")}>About me</span>
                 </li>
-                <li className="mx-2">
-                    <span onClick={()=>setNavSelected("Portfolio")}>Portfolio</span>
+                <li className={`nav-item btn ${navSelected === "Portfolio" && "active"}`}>
+                    <span className="nav-link" onClick={()=>setNavSelected("Portfolio")}>Portfolio</span>
                 </li>
-                <li className='mx-2'>
-                    <span onClick={()=>setNavSelected("Contact")}>Contact</span>
+                <li className={`nav-item btn ${navSelected === "Contact me" && "active"}`}>
+                    <span className="nav-link" onClick={()=>setNavSelected("Contact me")}>Contact</span>
                 </li>
-                <li className="mx-2">
-                    <span onClick={()=>setNavSelected("Resume")}>Resume</span>
+                <li className={`nav-item btn ${navSelected === "Resume" && "active"}`}>
+                    <span className="nav-link" onClick={()=>setNavSelected("Resume")}>Resume</span>
                 </li>
             </ul>
-        </nav>
+        </div>
     );
 };
 
