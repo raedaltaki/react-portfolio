@@ -27,7 +27,7 @@ function Contact()
         {
             if (!e.target.value.length) 
             {
-                setErrorMessage(`${e.target.name} is required.`);
+                setErrorMessage(`Your ${e.target.name} is required.`);
             } 
             else 
             {
@@ -63,7 +63,7 @@ function Contact()
                 </div>
                 {errorMessage && (
                     <div>
-                        <p className="alert alert-danger">{errorMessage}</p>
+                        <p className="alert alert-warning">{errorMessage}</p>
                     </div>
                 )}
 

@@ -9,7 +9,7 @@ function Project(props)
 {   
     const {navSelected } = props;
     return (
-        <div className="m-5">
+        <div className="">
             {navSelected === "About me" && <AboutMe />}
             {navSelected === "Portfolio" && <Portfolio />}
             {navSelected === "Resume" && <Resume />}

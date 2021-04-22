@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 function Footer()
 {   
     return (
-        <footer className=" text-center text-dark">
+        <footer className="text-center">
             <div className="container p-4">
             <section className="mb-4">
                 <a className="btn btn-outline-dark btn-lg btn-floating m-1" href="https://github.com/raedaltaki" target="_blank" role="button">

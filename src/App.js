@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header navSelected = {navSelected} setNavSelected = {setNavSelected}/>
-      <h1 className="m-5">{navSelected}</h1>
+      <h1 className="title m-5">{navSelected}</h1>
       <Project navSelected = {navSelected} />
       <Footer />
     </div>

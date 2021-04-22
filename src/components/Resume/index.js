@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 function Resume()
 {   
     return (
-        <div className="text-left">
+        <div className="text-left m-5">
             <h5> Download my {` `}
                 <a href={require(`../../assets/resume/Resume_Raed Altaki_Web Developer.pdf`).default} target="_blank" download="Resume_Raed Altaki_Web Developer.pdf" >
                     Resume

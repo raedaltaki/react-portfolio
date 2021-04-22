@@ -7,7 +7,7 @@ function AboutMe()
         <div>
             <img className="avatar mb-5" src = {require(`../../assets/photos/profilephoto.JPG`).default}/>
             <p>
-            A Dynamic full-stack web developer from Ontario, Canada.
+            <span className="highlight">A Dynamic full-stack web developer</span> from Ontario, Canada.
             <br/>
             I enjoy building websites and coding specially in 
             <br/>
