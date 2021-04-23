@@ -8,7 +8,7 @@ function Header(props)
 
     useEffect(() => 
     {
-        document.title = navSelected;
+        document.title = navSelected+" - Raed Altaki";
     }, [navSelected]);
     return (
         <header>
