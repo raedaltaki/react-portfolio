@@ -1,0 +1,52 @@
+.c {
+  position: absolute;
+  max-width: 500px;
+  max-height: 500px;
+  width: 330px;
+  height: 330px;
+  cursor: pointer;
+  will-change: transform, opacity;
+}
+
+.front,
+.back {
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.front {
+  background-image: url('./assets/photos/profilephoto.JPG');
+}
+
+.back {
+  background-image: url('./assets/photos/logo.JPG');
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+svg {
+  width: 300px;
+  padding: 20px;
+}
+
+svg g,
+svg g path {
+  display: block;
+  margin: auto;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 1em;
+  will-change: opacity;
+  margin: 0px;
+  padding-left: 10px;
+  color: #feda6a;
+}
+
+

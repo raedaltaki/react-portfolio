@@ -12,7 +12,6 @@ body {
   font-style: oblique;
 }
 
-
 a
 {
   color: #d4d4dc;
@@ -130,15 +129,13 @@ h5 a,
 }
 
 .title{
-  /* color: #feda6a; */
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Playfair Display SC', serif;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  font-size: 40px !important;
 }
 
-.avatar {
-  /* vertical-align: middle; */
-  width: 330px;
-  height: 330px;
-  border-radius: 50%;
-}
 
 i {
   font-size: 50px;
@@ -163,16 +160,25 @@ form {
 
 /* hh */
 
-.content {
+.content
+{
   position: relative;
   overflow: hidden;
   border-radius: 3% ;
 }
 
-.content .content-overlay {
+.avatar
+{
+  position: relative;
+  overflow: hidden;
+  width: 330px;
+}
+
+.content .content-overlay
+{
   background: rgba(0,0,0,0.7);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
@@ -185,8 +191,31 @@ form {
   border-radius: 3% ;
 }
 
-.content:hover .content-overlay{
+.avatar .avatar-overlay{
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  left:0;
+  top: 0;
+  bottom: 0;
+  right:0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+  z-index: 999;
+}
+
+.content:hover .content-overlay
+{
   opacity: 1;
+}
+
+.avatar:hover .avatar-overlay
+{
+  opacity: 0.6;
 }
 
 .content-image{
@@ -194,7 +223,15 @@ form {
   border-radius: 3% ;
 }
 
-.content-details {
+.avatar-image {
+  /* vertical-align: middle; */
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+}
+
+.content-details
+ {
   position: absolute;
   text-align: center;
   padding-left: 1em;
@@ -212,10 +249,37 @@ form {
   border-radius: 3% ;
 }
 
+.avatar-details
+ {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 70%;
+  left: 70%;
+  opacity: 0; 
+  -webkit-transform: translate(-70%, -70%);
+  -moz-transform: translate(-70%, -70%);
+  transform: translate(-70%, -70%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  border-radius: 50% ;
+  z-index: 99999;
+  color: #d4d4dc;
+}
+
 .content:hover .content-details{
   top: 50%;
   left: 50%;
   opacity: 1;
+}
+
+.avatar:hover .avatar-details{
+  top: 70%;
+  left: 70%;
+  opacity: 0.5;
 }
 
 .content-details h3{
