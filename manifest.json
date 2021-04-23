@@ -3,17 +3,17 @@
   "name": "Portfolio Raed Altaki",
   "icons": [
     {
-      "src": "briefcase (1).png",
+      "src": "logo.JPG",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "briefcase (1).png",
+      "src": "logo.JPG",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "briefcase (1).png",
+      "src": "logo.JPG",
       "type": "image/png",
       "sizes": "512x512"
     }
