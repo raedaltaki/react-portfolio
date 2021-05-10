@@ -107,12 +107,31 @@ label
   font-weight: bold;
 }
 
+.label2
+{
+  width: 30px;
+}
+address{
+  width: 500px;
+}
+
 .active span,
 h5 a,
 .content-details a,
-.highlight
+.highlight,
+.gold
 {
   color: #feda6a !important;
+}
+
+.op
+{
+  opacity: 50%;
+}
+
+.op:hover
+{
+  opacity: 100%;
 }
 
 .btn-dark
