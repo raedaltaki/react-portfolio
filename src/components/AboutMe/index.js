@@ -28,16 +28,17 @@ import styles from '../../styles.module.css'
 
 function AboutMe()
 {   
-    const [flipped, set] = useState(false)
+    const [flipped, set] = useState(false);
     const { transform, opacity } = useSpring({
       opacity: flipped ? 1 : 0,
       transform: `perspective(600px) rotateX(${flipped ? 180 : 0}deg)`,
       config: { mass: 5, tension: 500, friction: 80 },
-    })
+    });
+
     return (
         <div className="">
-            <div className="avatar shadow-1-strong rounded m-auto">
-                <div className="avatar-overlay" onClick={() => set(state => !state)}></div>
+            <div className="avatar shadow-1-strong rounded m-auto shk">
+                <div className="avatar-overlay shk" onClick={() => set(state => !state)}></div>
                 <div className= " mx-auto avatar-image mb-5" onClick={() => set(state => !state)}>
                     <a.div
                         className={`${styles.c} ${styles.front}`}
