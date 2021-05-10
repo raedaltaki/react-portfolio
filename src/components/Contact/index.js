@@ -53,7 +53,7 @@ function Contact()
             <address className="m-auto p-3">
                 <div className="p-2 d-flex align-items-center">
                     <label className="label2">Email: </label>
-                    <a className="gold op pl-5 ml-5" href="mailto:raed.simon@gmail.com" target="_blank" role="button">
+                    <a className="gold op pl-5 ml-5" href="mailto:raed.simon@gmail.com?subject=Email to Raed Altaki from portfolio" target="_blank" role="button">
                         raed.simon@gmail.com
                     </a>
                 </div>
