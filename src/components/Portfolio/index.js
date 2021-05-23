@@ -19,6 +19,15 @@ function Portfolio()
             </div>
             <div className="content w-100 shadow-1-strong rounded mb-4">
               <div className="content-overlay"></div>
+              <img className="content-image" src={require(`../../assets/photos/taskmaster-pro.gif`).default} alt=""/>
+              <div className="content-details fadeIn-right">
+                <h3>Taskmaster Pro</h3>
+                <a href="https://raedaltaki.github.io/taskmaster-pro/" target="_blank" className="m-3"><i className="far fa-eye"></i></a>
+                <a href="https://github.com/raedaltaki/taskmaster-pro" target="_blank" className="m-3"><i className="fab fa-github" ></i></a>
+              </div>
+            </div>
+            <div className="content w-100 shadow-1-strong rounded mb-4">
+              <div className="content-overlay"></div>
               <img className="content-image" src={require(`../../assets/photos/note-taker.gif`).default} alt=""/>
               <div className="content-details fadeIn-right">
                 <h3>Note Taker</h3>
@@ -30,15 +39,16 @@ function Portfolio()
           </div>
 
           <div className="col-lg-4 mb-4 mb-lg-0">
-            <div className="content w-100 shadow-1-strong rounded mb-4">
+          <div className="content w-100 shadow-1-strong rounded mb-4">
               <div className="content-overlay"></div>
-              <img className="content-image" src={require(`../../assets/photos/taskmaster-pro.gif`).default} alt=""/>
+              <img className="content-image" src={require(`../../assets/photos/currenseed.png`).default} alt=""/>
               <div className="content-details fadeIn-right">
-                <h3>Taskmaster Pro</h3>
-                <a href="https://raedaltaki.github.io/taskmaster-pro/" target="_blank" className="m-3"><i className="far fa-eye"></i></a>
-                <a href="https://github.com/raedaltaki/taskmaster-pro" target="_blank" className="m-3"><i className="fab fa-github" ></i></a>
+                <h3>CurrenSeed</h3>
+                <a href="https://currenseed.herokuapp.com/" target="_blank" className="m-3"><i className="far fa-eye"></i></a>
+                <a href="https://github.com/DJ-KARMA/currenseed/" target="_blank" className="m-3"><i className="fab fa-github" ></i></a>
               </div>
             </div>
+
             <div className="content w-100 shadow-1-strong rounded mb-4">
               <div className="content-overlay"></div>
               <img className="content-image" src={require(`../../assets/photos/run-buddy.JPG`).default} alt=""/>
