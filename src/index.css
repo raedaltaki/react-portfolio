@@ -118,10 +118,15 @@ address{
 .active span,
 h5 a,
 .content-details a,
-.highlight,
+.highlight
+{
+  color: #feda6a !important;
+}
+
 .gold
 {
   color: #feda6a !important;
+  font-size: 30px;
 }
 
 .op
