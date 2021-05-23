@@ -109,10 +109,12 @@ label
 
 .label2
 {
-  width: 60px;
+  width: 100px;
+  margin-bottom: 0px;
 }
+
 address{
-  width: 500px;
+  /* width: 570px; */
 }
 
 .active span,

@@ -51,15 +51,21 @@ function Contact()
             <br/>
             {/* <address className="d-flex justify-content-center align-items-center"> */}
             <address className="m-auto p-3">
-                <div className="p-2 d-flex align-items-center">
-                    <label className="label2">Email: </label>
-                    <a className="pl-5 ml-5 gold" href="mailto:raed.simon@gmail.com?subject=Email to Raed Altaki from portfolio" target="_blank" role="button">
+                <div className="p-2 d-flex align-items-center flex-wrap">
+                    <label className="label2 w-100">Email: </label>
+                    <a className="gold w-100" href="mailto:raed.simon@gmail.com?subject=Email to Raed Altaki from portfolio" target="_blank" role="button">
                         raed.simon@gmail.com
                     </a>
                 </div>
-                <div className="p-2 d-flex align-items-center">
-                    <label className="label2">LinkedIn:</label>
-                    <a className="pl-5 ml-5 gold" href="https://www.linkedin.com/in/raed-altaki/" target="_blank" role="button">
+                {/* <div className="p-2 d-flex align-items-center flex-wrap">
+                    <label className="label2 w-100">Phone:</label>
+                    <a className="gold w-100" href="tel:6472707755" role="button">
+                        +1(647)270-7755
+                    </a>
+                </div> */}
+                <div className="p-2 d-flex align-items-center flex-wrap">
+                    <label className="label2 w-100">LinkedIn:</label>
+                    <a className="gold w-100" href="https://www.linkedin.com/in/raed-altaki/" target="_blank" role="button">
                         www.linkedin.com/in/raed-altaki/
                     </a>
                 </div>
