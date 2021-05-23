@@ -59,7 +59,7 @@ function Contact()
                 </div>
                 <div className="p-2 d-flex align-items-center">
                     <label className="label2">LinkedIn:</label>
-                    <a className=" pl-5 ml-5 gold" href="https://www.linkedin.com/in/raed-altaki/" target="_blank" role="button">
+                    <a className=" pl-5 ml-5 gold op" href="https://www.linkedin.com/in/raed-altaki/" target="_blank" role="button">
                         www.linkedin.com/in/raed-altaki/
                     </a>
                 </div>
