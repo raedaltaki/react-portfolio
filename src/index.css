@@ -126,12 +126,12 @@ h5 a,
 
 .op
 {
-  opacity: 50%;
+  opacity: 50% !important;
 }
 
 .op:hover
 {
-  opacity: 100%;
+  opacity: 100% !important;
 }
 
 .btn-dark
