@@ -11,7 +11,7 @@ function Resume()
       config: { duration: 1000 },
     });
     return (
-        <div className="text-left m-5 " onClick={() => toggle(!state)}>
+        <div className="text-center m-5 " onClick={() => toggle(!state)}>
             <h5> Download my Resume{` `}
                 
                     <animated.div
@@ -34,32 +34,61 @@ function Resume()
                 
             </h5>
             <br />
-            <h3>Front-end Projiciencies</h3>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>JQuery</li>
-                <li>AJAX</li>
-                <li>Bootstrap</li>
-                <li>MomentJs</li>
-            </ul>
-            <h3>Back-end Projiciencies</h3>
-            <ul>
-                <li>APIs</li>
-                <li>Node.Js</li>
-                <li>Express</li>
-                <li>inquirer</li>
-                <li>Jest</li>
-                <li>bcrypt</li>
-                <li>SQL</li>
-                <li>NOSQL</li>
-                <li>Mongoose</li>
-                <li>MongoDB</li>
-                <li>sequelize</li>
-                <li>handlebars</li>
-                <li>React</li>
-            </ul>
+            <div className="d-flex flex-wrap justify-content-around">
+                <div className="my-5">
+                    <h3>Front-end Projiciencies</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                        <li>JQuery</li>
+                        <li>AJAX</li>
+                        <li>Bootstrap</li>
+                        <li>Materialize</li>
+                        <li>MomentJs</li>
+                        <li>DataTablesJs</li>
+                        <li>JSON</li>
+                        <li>XML</li>
+                        <li>XSLT</li>
+                        <li>CSS/JS Frameworks/Libraries</li>
+
+                    </ul>
+                </div>
+                <div className="my-5">
+                    <h3>Back-end Projiciencies</h3>
+                    <ul>
+                        <li>Node.Js</li>
+                        <li>Express</li>
+                        <li>inquirer</li>
+                        <li>Jest</li>
+                        <li>bcrypt</li>
+                        <li>handlebars</li>
+                        <li>sequelize</li>
+                        <li>Mongoose</li>
+                        <li>MySQL</li>
+                        <li>SQLite</li>
+                        <li>MongoDB</li>
+                        <li>SQL</li>
+                        <li>NOSQL</li>
+                        <li>Apollo</li>
+                        <li>GraphQL</li>
+                        <li>JWT</li>
+                        <li>webpack</li>
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>context api</li>
+                        <li>stripe</li>
+                        <li>chakra-ui</li>
+                        <li>MERN</li>
+                        <li>PWA</li>
+                        <li>TDD</li>
+                        <li>OOP</li>
+                        <li>MVC</li>
+                        <li>REST APIs</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     );
 };
