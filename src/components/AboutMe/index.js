@@ -63,9 +63,11 @@ function AboutMe()
             <br/>
             I enjoy building websites and coding specially in 
             <br/>
-            HTML, CSS, JavaScript, Jquery, Bootstrap, MaterializeCSS, MomentJs, AJAX, NODE.js, Express.js, express-session,
+            HTML5, CSS3, JavaScript, JQuery, Bootstrap, MaterializeCSS, MomentJs, DataTablesJs, AJAX, NODE.js, Express.js, express-session,
             <br />
-            MYSQL, Sequelize.Js, Handlebars.Js, Brypt.Js, Nodemailer.Js, jest, REST, OOL, TDD and C#.
+            inquirer, MYSQL, SQLite, SQL, Sequelize.Js, Handlebars.Js, Bcrypt.Js, Nodemailer.Js, jest, REST APIs, JSON, XML, XSLT, webpack,
+            <br />
+            MERN, React, Redux, context api, MongoDB, Mongoose, NOSQL, GraphQL, Apollo, stripe, chakra-ui, JWT, MVC, PWA, OOP, TDD and C#.
             </p>
         </div>
     );

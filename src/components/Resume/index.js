@@ -59,7 +59,9 @@ function Resume()
                     <ul>
                         <li>Node.Js</li>
                         <li>Express</li>
+                        <li>express-session</li>
                         <li>inquirer</li>
+                        <li>Nodemailer.Js</li>
                         <li>Jest</li>
                         <li>bcrypt</li>
                         <li>handlebars</li>
