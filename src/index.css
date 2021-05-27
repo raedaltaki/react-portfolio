@@ -205,6 +205,7 @@ form {
   background: rgba(0,0,0,0.7);
   position: absolute;
   height: 100%;
+  /* min-height: 600px; */
   width: 100%;
   left: 0;
   top: 0;
@@ -344,6 +345,13 @@ form {
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+}
+
+.content,
+.content-overlay,
+.content-image
+{
+  min-height: 350px;
 }
 
 @keyframes shakeMe {

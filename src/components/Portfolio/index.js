@@ -92,6 +92,16 @@ function Portfolio()
                 <a href="https://github.com/raedaltaki/googlebooks-app" target="_blank" className="m-3"><i className="fab fa-github" ></i></a>
               </div>
             </div>
+            <div className="content w-100 shadow-1-strong rounded mb-4">
+              <div className="content-overlay"></div>
+              <img className="content-image" src={require(`../../assets/photos/git-it-done.gif`).default} alt=""/>
+              <div className="content-details fadeIn-right">
+                <h3>Git it done</h3>
+                <p> Web Applicstion that allows users to search for GitHub users' profiles and view their open source projects and tasks</p>
+                <a href="https://raedaltaki.github.io/git-it-done/" target="_blank" className="m-3"><i className="far fa-eye"></i></a>
+                <a href="https://github.com/raedaltaki/git-it-done" target="_blank" className="m-3"><i className="fab fa-github" ></i></a>
+              </div>
+            </div>
 
           </div>
 
