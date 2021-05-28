@@ -63,7 +63,7 @@ function AboutMe()
             <br/>
             I enjoy building websites and coding specially in 
             <br/>
-            HTML5, CSS3, JavaScript, Bootstrap, AJAX, JSON, MYSQL, Sequelize.Js, REST APIs,
+            HTML5, CSS3, JavaScript, Bootstrap, AJAX, JSON, MYSQL, Sequelize.Js,
             <br />
             MERN, Express.js, NODE.js, React, Redux, MongoDB, Mongoose, NOSQL, Apollo, GraphQL, stripe, chakra-ui, JWT, MVC, PWA, OOP, TDD and C#.
             </p>

@@ -12,10 +12,9 @@
 
 ## Bio
 
- My name is Raed Altaki. I live in Mississaugga- Ontario.<br/>
-I am a computer engineer and I'm currently learning web development. 
-I enjoy building websites and coding specially in HTML, CSS, JAVASCRIPT, SQL, C# and C++. <br/>
-I like to go hiking, working out in the gym and watching movies in my free time.
+My name is Raed Altaki. I live in Mississaugga- Ontario.<br/>
+I am a computer engineer and I hold a certificate of coding and web development. 
+I enjoy building websites and coding specially in HTML5, CSS3, JavaScript, Bootstrap, MYSQL, Sequelize.Js, MERN, Express.js, NODE.js, React, Redux, MongoDB, Mongoose, NOSQL, Apollo, GraphQL, stripe, chakra-ui, JWT, MVC, PWA, OOP, TDD and C#.
 
 <br/>
 
