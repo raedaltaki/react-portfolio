@@ -43,7 +43,7 @@ function Portfolio()
               <img className="content-image" src={require(`../../assets/photos/photo-port.gif`).default} alt=""/>
               <div className="content-details fadeIn-right">
                 <h3>photo-port</h3>
-                <p>photo-port App is a photo gallary website for a photographer that display all the photes based on their categories</p>
+                <p>Photo Port is a MERN photo galley website for a photographer that display all the photos based on their categories</p>
                 <a href="https://raedaltaki.github.io/photo-port/" target="_blank" className="m-3"><i className="far fa-eye"></i></a>
                 <a href="https://github.com/raedaltaki/photo-port" target="_blank" className="m-3"><i className="fab fa-github" ></i></a>
               </div>
